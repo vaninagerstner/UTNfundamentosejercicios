@@ -1,0 +1,9 @@
+def buscar_pares(lista):
+    pares = [numero for numero in lista if numero % 2 == 0]
+    return pares
+numeros = [30,31,32,45,46,55,58]
+pares = buscar_pares(numeros)
+print(pares)
+
+
+

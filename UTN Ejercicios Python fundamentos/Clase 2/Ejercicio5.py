@@ -1,0 +1,5 @@
+cantidadpersonas = int(input("Ingrese la cantidad de personas: "))
+dineroporpersona = float(input("Ingrese la cantidad de dinero que lleva cada comensal: "))
+precioplato = float(input("Ingrese el precio de cada plato: "))
+cantidadplatos = int((cantidadpersonas * dineroporpersona) / precioplato)
+print("Pueden consumir", cantidadplatos, "platos gastando todo el dinero.")
